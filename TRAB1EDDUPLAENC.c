@@ -109,6 +109,8 @@ No *prim = NULL, *prim2 = NULL;
 	return 0;
 }
 
+
+//FUNCTIONS
 void insereBuscaDupla(No **p, int buscak, int chave){
     No *novo = NULL, *paux = *p; // vamos usar paux p navegar, novo vai ser o novo no
     novo = alocaNo(chave);

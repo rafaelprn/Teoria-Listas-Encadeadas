@@ -112,6 +112,7 @@ No *prim = NULL, *prim2 = NULL;
 	return 0;
 }
 
+//FUNCTIONS
 void insereCircular(No **p, int k){
     assert(p);
     if(*p == NULL){ //caso nao tenha ninguem nessa lista ainda

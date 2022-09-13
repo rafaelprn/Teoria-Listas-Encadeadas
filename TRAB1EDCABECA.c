@@ -114,6 +114,8 @@ int main(){
 	return 0;
 }
 
+
+//FUNCTIONS
 No *criaLista(){
   No *cabeca = (No *)malloc(sizeof(No)); //alocando
   if (cabeca == NULL) return NULL; //caso de errado

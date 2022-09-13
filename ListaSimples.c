@@ -111,6 +111,8 @@ No *prim = NULL, *prim2 = NULL;
 	return 0;
 }
 
+
+//FUNCTIONS
 void insereBusca(No **p, int buscak, int chave){ //prim: a lista, 
     No *novo = *p, *paux = NULL; // vamos usar novo p navegar, paux vai ser o novo no
 
